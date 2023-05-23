@@ -1,0 +1,15 @@
+app:
+  name: zenteric-poi-map-app
+  namespace: zenteric
+  cluster: .apps.summit23rock.n26o.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus1/zenteric-frontend
+  org: Summit23Janus1
+  name: zenteric-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: zenteric/poi-map-app
+  tag: latest
